@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #f5f5f5;
+}
+
+.page-container {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.form-wrapper {
+    width: 60%;
+    padding: 20px;
+    overflow-y: auto;
+    max-height: 100vh;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.image-container {
+    width: 40%;
+    background-color: var(--brand-accent);
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.illustration {
+    max-width: 80%;
+    margin-bottom: 40px;
+}
+
+.logo {
+    position: absolute;
+    bottom: 30px;
+    max-width: 200px;
+}
+
+
+@media (max-width: 900px) {
+    .page-container {
+        flex-direction: column;
+    }
+    
+    .form-wrapper {
+        width: 100%;
+        order: 2;
+        max-height: none;
+    }
+    
+    .image-container {
+        width: 100%;
+        position: relative;
+        height: 300px;
+        order: 1;
+    }
+    
+    .illustration {
+        max-width: 200px;
+    }
+}
