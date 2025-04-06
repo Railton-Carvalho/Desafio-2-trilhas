@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Programa Trilhas - Cadastro</title>
+  
+  <link rel="stylesheet" href="../../variables.css" />
+  <link rel="stylesheet" href="../../style.css" />
+  <link rel="stylesheet" href="../../layout.css" />
+  <link rel="stylesheet" href="cadastro.css" />
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="page-container">
+    <div class="form-wrapper">
+      <div class="container cadastro-container">
+        <a href="login.html" class="back-button">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+            <path d="M19 12H5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M12 19L5 12L12 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Voltar
+        </a>
+        
+        <h1 class="cadastro-title">Cadastro</h1>
+        <p class="cadastro-description">Crie sua conta para acessar o Programa Trilhas.</p>
+        
+        <form id="cadastroForm" autocomplete="off">
+          <div id="errorContainer" class="error-message">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+              <circle cx="12" cy="12" r="10" stroke="#ff3b30" stroke-width="2"/>
+              <path d="M12 8V12" stroke="#ff3b30" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="12" cy="16" r="1" fill="#ff3b30"/>
+            </svg>
+            <span id="errorText">Erro no cadastro</span>
+          </div>
+          
+          <div class="form-group">
+            <label for="nome">Nome completo</label>
+            <input type="text" id="nome" placeholder="Digite seu nome completo" autocomplete="off" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="cpf">CPF</label>
+            <input type="number" id="cpf" placeholder="Digite seu CPF" autocomplete="off" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" placeholder="Digite sua senha" autocomplete="new-password" required>
+          </div>
+          
+          <div class="button-group">
+            <button type="button" class="btn btn-outline" onclick="window.location.href='../login.html'">Cancelar</button>
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    
+    <div class="image-container">
+      <img src="../../assets/main-image.svg" alt="Ilustração do Programa Trilhas" class="illustration" />
+      <img src="../../assets/main-logo.svg" alt="Logo Trilhas" class="logo" />
+    </div>
+  </div>
+
+  <script src="../../utils/utils.js"></script>
+  <script src="cadastro.js"></script>
+</body>
+</html>

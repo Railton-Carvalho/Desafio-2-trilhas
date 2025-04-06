@@ -1,0 +1,32 @@
+.cadastro-container {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .error-message {
+    display: none;
+    color: var(--semantic-error);
+    font-size: 12px;
+    margin-top: 5px;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .error-visible {
+    display: flex;
+  }
+  
+  .cadastro-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: var(--text-primary);
+  }
+  
+  .cadastro-description {
+    color: var(--text-secondary);
+    margin-bottom: 25px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
