@@ -1,4 +1,4 @@
-# 🚀 Formulário de Inscrição Digital - Desáfio 3 Trilhas INOVA
+# 🚀 Formulário de Inscrição Digital - Desafio 3 Trilhas INOVA
 
 👨‍💻 **Autores:** Railton Rosa de Carvalho e Vinícius Lira Caldas.
 
@@ -6,7 +6,7 @@
 
 ## 🎯 Objetivo e Contexto
 
-O formulário de inscrição foi desenvolvido para simplificar e padronizar processos de inscrição e seleção em programas de formação. As soluções implementadas têm como objetivo:
+O formulário de inscrição foi desenvolvido para simplificar e padronizar processos de inscrição e seleção no programa Trilhas Inova Maranhão. As soluções implementadas via plataforma WEB têm como objetivo:
 
 - ✅ Reduzir erros comuns em processos manuais.
 - 📈 Facilitar validação eficiente das informações.
