@@ -10,6 +10,7 @@
 body {
   background-color: var(--surface-primary);
   padding: 20px;
+  width: 100%;
   max-width: 600px;
   margin: 0 auto;
 }

@@ -72,3 +72,32 @@ body {
         max-width: 200px;
     }
 }
+
+@media (max-width: 600px) {
+    .form-row {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .track-options {
+        grid-template-columns: 1fr;
+    }
+
+    .image-container {
+        height: 200px;
+        padding: 10px;
+    }
+
+    .illustration {
+        max-width: 150px;
+    }
+
+    .logo {
+        max-width: 150px;
+    }
+}
