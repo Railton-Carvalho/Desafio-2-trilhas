@@ -36,6 +36,6 @@ document.addEventListener('DOMContentLoaded', () => {
     localStorage.setItem('users', JSON.stringify(existingUsers));
 
     alert('Usuário cadastrado com sucesso!');
-    window.location.href = 'login.html';
+    window.location.href = '../login.html';
   });
 });
